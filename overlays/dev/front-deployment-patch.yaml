@@ -4,7 +4,7 @@ metadata:
   name: tripick-frontend
   namespace: default
   labels:
-    app.kubernetes.io/name: tripick
+    app.kubernetes.io/name: tripick-frontend
 spec:
   selector:
     matchLabels:
