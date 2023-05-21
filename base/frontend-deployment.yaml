@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: tripick-frontend
   namespace: default
+  labels: tripick-frontend
 spec:
   replicas: 2
   revisionHistoryLimit: 1 # Default to 10 if not specified
