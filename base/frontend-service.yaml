@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: tripick-frontend
   labels: 
-    app.kubernetes.io/name: tripick
+    app.kubernetes.io/name: tripick-frontend
 spec:
   selector:
     app: tripick-frontend
