@@ -18,5 +18,6 @@ spec:
         image: tkdgur1756/tri-pick:latest
         imagePullPolicy: Always
         ports:
-        - containerPort: 80
+        - containerPort: 3100
+          protocol: TCP
       nodeName: k3s-worker1
