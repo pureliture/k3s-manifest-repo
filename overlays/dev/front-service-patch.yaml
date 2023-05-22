@@ -2,6 +2,9 @@ apiVersion: v1
 kind: Service
 metadata:
   name: tripick-frontend
+  labels:
+    app: tripick-frontend
 spec:
   selector:
     app: tripick-frontend
+  type: NodePort
