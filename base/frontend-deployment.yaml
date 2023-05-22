@@ -4,7 +4,7 @@ metadata:
   name: tripick-frontend
   namespace: default
   labels: 
-    app.kubernetes.io/name: tripick-frontend
+    app: tripick-frontend
 spec:
   replicas: 2
   revisionHistoryLimit: 1 # Default to 10 if not specified
