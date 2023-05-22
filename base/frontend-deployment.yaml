@@ -10,7 +10,6 @@ spec:
       app: tripick-frontend
   template:
     metadata:
-      name: tripick-frontend
       labels:
         app: tripick-frontend
     spec:
