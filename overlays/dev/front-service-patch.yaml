@@ -7,4 +7,3 @@ metadata:
 spec:
   selector:
     app: tripick-frontend
-  type: NodePort
