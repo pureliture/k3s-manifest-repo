@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: tkdgur1756/tri-pick
-  newTag: 0705e4c5
+  newTag: 1abbbb98
 resources:
 - ../../base
 patchesStrategicMerge:
