@@ -4,7 +4,7 @@ metadata:
   name: tripick-frontend
 spec:
   selector:
-    app.kubernetes.io/name: tripick-frontend
+    app: tripick-frontend
   type: NodePort
   ports:
   - protocol: TCP
