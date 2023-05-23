@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tripick-frontend
+  name: tripic-frontend
 spec:
   selector:
     matchLabels:
-      app: tripick-frontend
+      app: tripic-frontend
   template:
     metadata:
       labels:
-        app: tripick-frontend
+        app: tripic-frontend
