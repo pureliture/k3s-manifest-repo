@@ -1,23 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tripick-frontend
+  name: tripic-frontend
 spec:
   replicas: 2
   revisionHistoryLimit: 1 # Default to 10 if not specified
   selector:
     matchLabels:
-      app: tripick-frontend
+      app: tripic-frontend
   template:
     metadata:
       labels:
-        app: tripick-frontend
+        app: tripic-frontend
     spec:
       containers:
-      - name: tripick-frontend
+      - name: tripic-frontend
         image: tkdgur1756/tri-pick:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
-          protocol: TCP
-      nodeName: k3s-worker1
