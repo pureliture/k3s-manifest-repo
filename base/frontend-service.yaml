@@ -8,5 +8,5 @@ spec:
   selector:
     app: tripic-frontend
   ports:
-  - http: http
+  - name: http
     port: 80
